@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Product_page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/product-view-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="message" id="message">
+      <div class="container">
+        <div class="row">
+          <p class="text-center">start selling your products or buy them from anywhere!</p>
+          
+          <button class="btn close"><i class="fas fa-times pull-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- header start hear -->
+
+    <header class="header">
+      
+      <!-- top header start hear -->
+      <div class="top-header"> 
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-2 col-xs-2">
+              <select class="selectpicker">
+                <option>usa</option>
+                <option>aus</option>
+              </select>
+            </div>
+
+            <div class="col-sm-8 col-xs-6">
+              <a href="#" class="navbar-brand logo"><img src="images/logo.png" alt="brand logo"></a>
+            </div>
+
+            <div class="col-sm-2 col-xs-4">
+              <a href="#" class="btn cart">cart(3)</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- top header end hear -->
+
+      <!-- main header with navbar start hear -->
+      <div class="main-nav">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1">
+              <a href="#" class="btn sidebar-icon"><i class="fas fa-bars"></i></a>
+            </div>
+
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-4">
+              
+              <nav class="navbar">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+
+                      <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                      
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">men <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li><a href="#">Separated link</a></li>
+                          <li><a href="#">One more separated link</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">women <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li><a href="#">Separated link</a></li>
+                          <li><a href="#">One more separated link</a></li>
+                        </ul>
+                      </li>
+
+                      <li><a href="#">Lookbook</a></li>
+
+                      <li><a href="#">about</a></li>
+
+                      <li><a href="#">blog</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+              
+              <div class="wish_search">
+                <a href="#" class="btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="btn" id="search-icon"><i class="fas fa-search"></i></a>
+
+                <div class="search-box">
+                  <form action="#">
+                    <input type="text">
+                    <input type="button" value="search">
+                  </form>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- header end hear -->
+
+
+    <!-- product seaction start hear -->
+
+    <section class="product">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="product_images"><!-- product images start hear -->
+
+                <div class="">
+                  <ul id="glasscase" class="gc-start">
+                      <li><img src="images/1.jpeg" alt="#" /></li>
+                      <li><img src="images/2.jpeg" alt="Text" /></li>
+                      <li><img src="images/3.jpeg" alt="Text" /></li>
+                      <li><img src="images/4.jpeg" alt="Text" /></li>
+                      <li><img src="images/5.jpeg" alt="Text" /></li>
+
+                  </ul>
+                </div>
+
+            </div><!-- product images end hear -->
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="product_details">
+              
+              <a href="#" class="back"><i class="fas fa-chevron-left"></i> Back to <span>woman</span></a>
+
+              <h3 class="product_name">The Atelier Tailored Coat</h3>
+
+              <div class="rating"> <!-- rating start hear -->
+                <div id="stars-existing" class="starrr" data-rating='4'></div>
+                <h5>3 Review(s) &nbsp;&nbsp;|</h5>
+                <a href="#" class="btn review">Add a Review</a>
+              </div><!-- rating end hear -->
+
+              <h2 class="price">$499.00</h2>
+
+              <h4>Availability : <span>In stock</span></h4>
+              <h4>Product Code : <span>#4657</span></h4>
+              <h4>Tags : <span>Fashion, Hood, Classic</span></h4>
+
+              <p class="product-info">Sleek, polished, and boasting an impeccably modern fit, this blue, 2-but-
+ton Lazio suit features a notch lapel, flap pockets, and accompanying flat
+front trousers—all in pure wool by Vitale Barberis Canonico.</p>
+
+              <ul>
+                <li>Dark blue suit for a tone-on-tone look</li>
+                <li>Regular fit</li>
+                <li>100% Cotton</li>
+                <li>Free shipping with 4 days delivery</li>
+              </ul>
+
+              <div class="product-color-size"><!-- product color, size start hear -->
+                
+                <div class="col-lg-4">
+                    <label>color</label>
+                        <select class="form-control" name="sort">
+                            <option selected>select color</option>
+                            <option value="red">red</option>
+                            <option value="gray">gray</option>
+                            <option value="dark">dark</option>
+                        </select>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <label>size</label>
+                        <select class="form-control" name="sort">
+                            <option selected>select size</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                        </select>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <label>qty</label>
+                        <select class="form-control" name="sort">
+                            <option value="1" selected>1</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                        </select>
+                </div>
+
+                <button class="btn select-cler">Clear Selection</button>
+
+              </div><!-- product color, size end hear -->
+
+
+              <div class="buttons">
+
+                <a href="#" class="btn btns add-cart">add to cart</a>
+
+                <a href="#" class="btn btns wishlist"><i class="far fa-heart"></i> add to wishlist</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- product seaction end hear -->
+
+
+
+
+
+
+    <!-- sidebar start hear -->
+    <div class="sidebar">
+      <ul>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+      </ul>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/glassCase.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
